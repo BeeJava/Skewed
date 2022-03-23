@@ -1,0 +1,261 @@
+@media(min-width: 576px){
+    /*SM Breakpoint*/
+
+
+}
+
+
+@media(min-width: 768px){
+    /*MD Breakpoint*/
+    /*home start*/
+    .home,
+    .about,
+    .achievements{
+        margin-bottom: 60px;
+    }
+    .home:after{
+        height: 75px;
+        border-bottom: 75px solid #fff;
+    }
+    .home .carousel-indicators{
+
+    }
+    /*video start*/
+    .video{
+        margin-bottom: 76px;
+    }
+    .video:before,
+    .portfolio:before,
+    .subscribe:before{
+        height: 75px;
+        border-top: 75px solid #fff;
+    }
+    .video:after,
+    .portfolio:after{
+        height: 75px;
+        border-bottom: 75px solid #fff;
+    }
+    /*team start*/
+    .team{
+        margin-bottom: 72px;
+    }
+    .owl-theme .owl-dots .owl-dot span{
+        margin: 5px 8px;
+        width: 14px;
+        height: 14px;
+    }
+    /*parallax start*/
+    .parallax{
+        padding: 180px 0 150px;
+        margin-bottom: 76px;
+    }
+    .parallax:before{
+        height: 75px;
+        border-top: 75px solid #fff;
+    }
+    .parallax:after{
+        height: 75px;
+        border-bottom: 75px solid #fff;
+    }
+    /*principles start*/
+    .principles{
+        margin-bottom: 90px;
+    }
+    /*portfolio start*/
+    .portfolio{
+        padding: 124px 0 137px;
+        margin-bottom: 70px;
+    }
+    
+    /*subscribe start*/
+    .subscribe{
+        padding: 120px 0 70px;
+    }
+    /*achievements start*/
+    .achievements .carousel .row{
+        margin-bottom: 175px;
+    }
+
+
+}
+
+
+@media(min-width: 992px){
+    /*LG Breakpoint*/
+    .section-title{
+        font-size: 60px;
+        line-height: 68px;
+    }
+    /*header start*/
+    header{
+
+        padding: 10px 0 12px;
+    }
+    header .navbar-nav .nav-item .nav-link{
+        border-bottom: none;
+    }
+    header .navbar-nav .nav-item .nav-link.active,
+    header .navbar-nav .nav-item .nav-link:hover{
+        border-bottom: none;
+    }
+    /*home start*/
+    .home{
+        margin-bottom: 90px;
+    }
+    .home .carousel .carousel-item{
+        padding: 210px 0 220px;
+    }
+    .home .carousel-inner .home-slider-title{
+        font-size: 66px;
+        line-height: 78px;
+    }
+    .home:after{
+        height: 100px;
+        border-bottom: 100px solid #fff;
+    }
+    .home .carousel-indicators{
+        bottom: 100px;
+    }
+    /*about us start*/
+    .about{
+        margin-bottom: 100px;
+    }
+    .about .about-content p:first-of-type,
+    .video .video-text,
+    .parallax .parallax-content p:first-of-type,
+    .principles .principles-content .principles-content-intro,
+    .portfolio .portfolio-text,
+    .achievements .achievements-text,
+    .subscribe .subscribe-text{
+        font-size: 20px;
+        line-height: 28px;
+    }
+    /*video start*/
+    .video{
+        padding: 120px 0 165px;
+    }
+    .video:before,
+    .portfolio:before{
+        height: 100px;
+        border-top: 100px solid #fff;
+    }
+    .video:after,
+    .portfolio:after{
+        height: 100px;
+        border-bottom: 100px solid #fff;
+    }
+    /*team start*/
+    .team .section-title{
+        margin-bottom: 20px;
+    }
+    .team .team-text{
+        font-size: 20px;
+        line-height: 28px;
+    }
+    /*parallax start*/
+    .parallax{
+        padding: 240px 0 200px;
+        margin-bottom: 114px;
+    }
+    .parallax:before{
+        height: 100px;
+        border-top: 100px solid #fff;
+    }
+    .parallax:after{
+        height: 100px;
+        border-bottom: 100px solid #fff;
+    }
+    /*achievements start*/
+    .achievements{
+        margin-bottom: 95px;
+    }
+
+    /*portfolio start*/
+    .portfolio{
+        padding: 124px 0 200px;
+    }
+
+
+}
+
+
+@media(min-width: 1200px){
+    /*XL Breakpoint*/
+    /*header start*/
+    header{
+        padding: 20px 0 24px;
+    }
+    header .navbar-nav .nav-item:not(:first-of-type){
+        margin-left: 20px;
+    }
+    /*home start*/
+    .home{
+        margin-bottom: 120px;
+    }
+    .home .carousel .carousel-item{
+        padding: 270px 0 280px;
+    }
+    .home .carousel-indicators{
+        bottom: 120px;
+    }
+    /*about us start*/
+    .about{
+        margin-bottom: 130px;
+    }
+    /*video start*/
+    .video{
+        margin-bottom: 114px;
+    }
+    /*parallax start*/
+    .parallax{
+        padding: 280px 0 250px;
+    }
+    /*principles start*/
+    .principles{
+        margin-bottom: 146px;
+    }
+    /*portfolio start*/
+    .portfolio{
+        padding: 166px 0 269px;
+        margin-bottom: 105px;
+    }
+    
+    /*subscribe start*/
+    .subscribe{
+        padding: 165px 0 92px;
+    }
+
+}
+
+
+@media(min-width: 1400px){
+    /*XXL Breakpoint*/
+    /*header start*/
+    header{
+        padding: 32px 0 36px;
+    }
+    header .navbar-nav .nav-item:not(:first-of-type){
+        margin-left: 30px;
+    }
+    /*home start*/
+    .home .carousel .carousel-item{
+        padding: 300px 0 326px;
+    }
+    .home .carousel-inner .home-slider-title{
+        font-size: 82px;
+        line-height: 98px;
+    }
+    /*about us start*/
+    .about{
+        margin-bottom: 166px;
+    }
+    /*video start*/
+    .video{
+        padding: 161px 0 223px;
+    }
+    /*parallax start*/
+    .parallax{
+        padding: 364px 0 317px;
+    }
+
+}
